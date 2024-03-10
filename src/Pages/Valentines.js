@@ -10,7 +10,6 @@ import PicShow from '../PicShow';
 // import lake from './Pics/lake.JPG'
 import heart from './Pics/heart.png'
 import fisheye from './Pics/fisheye.jpg';
-import daves from './Pics/daves.jpg'
 import deal from './Pics/deal.JPG'
 import dance from './Pics/dance.JPG'
 import hug from './Pics/hug.JPG'
