@@ -4,19 +4,28 @@ import Timeline from './Pages/timeline.js';
 import MainPage from './MainPage.js';
 import Valentines from './Pages/Valentines.js';
 import Test from './Pages/Test.js';
+import Home from './Pages/Home.js';
 import React from 'react';
+
 
 const App=()=>{
     return(
         <div>
-            <div style={{'fontSize': '20px', display: "flex", justifyContent: "center"  }}>
+        <div style={{'fontSize': '20px','font':'georgia', display: "flex", justifyContent: "center", height:30 }}>
+           <i>Celebrating Sarisha Praveen Shetty & Maya Francesca Tomarchio</i> 
+        </div>
+            <div style={{'fontSize': '25px', display: "flex", justifyContent: "center",height:50 }}>
                 <div>
-                    <Link to="/main">Home&nbsp;&nbsp;|</Link>
-                    <mainPage/>
+                    <Link to="/">Home&nbsp;&nbsp;|</Link>
+                    
                 </div>
                 <div>
-                    <Link to="/Test">&nbsp;&nbsp;Test&nbsp;&nbsp;|</Link>
-                    <mainPage/>
+                    <Link to="/ForYourBirthday">&nbsp;&nbsp;Love Letter&nbsp;&nbsp;|</Link>
+                   
+                </div>
+                <div>
+                    <Link to="/ILoveYou">&nbsp;&nbsp;Test&nbsp;&nbsp;|</Link>
+                    
                 </div>
 
                 <div>
@@ -28,9 +37,10 @@ const App=()=>{
                 </div>
             </div>
             <div>
-                <Route path="/timeline"> <Timeline /> </Route>
-                <Route path="/Test"> <Test /> </Route>
-                <Route path="/main"> <MainPage/> </Route>
+                <Route path="/"> <Home/> </Route>
+                <Route path="/timeline"> <Timeline/> </Route>
+                <Route path="/ILoveYou"> <Test/> </Route>
+                <Route path="/ForYourBirthday"> <MainPage/> </Route>
                 <Route path="/Valentines"> <Valentines/> </Route>
             </div>
         </div> 
