@@ -15,10 +15,10 @@ const App=()=>{
            <i>Celebrating Sarisha Praveen Shetty & Maya Francesca Tomarchio</i> 
         </div>
             <div style={{'fontSize': '25px', display: "flex", justifyContent: "center",height:50 }}>
-                <div>
+                
                     <Link to="/">Home&nbsp;&nbsp;|</Link>
                     
-                </div>
+                
                 <div>
                     <Link to="/ForYourBirthday">&nbsp;&nbsp;Love Letter&nbsp;&nbsp;|</Link>
                    
