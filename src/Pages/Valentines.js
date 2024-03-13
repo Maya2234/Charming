@@ -19,6 +19,7 @@ import cpr from './Pics/cpr.JPG'
 import tanu from './Pics/tanu.JPG'
 import headshot from './Pics/headshot.JPG'
 import {useState} from 'react';
+import '../App.css';
 
 
 // eslint-disable-next-line
@@ -47,8 +48,8 @@ const Renderedpics = pics.map((pic,index)=>{
     <div>
         <div style={{ padding: '20px' }}>
             
-            <div style={{ height: 100, display: "flex", justifyContent: "center", alignItems: "flex-start" }}>
-                <div style={{ padding: 60, width: 1300, border: '1px solid black', 'fontSize': '70px', display: "flex", justifyContent: "center", alignitems: 'center', textalign: 'center' }}>
+            <div classname='App'>
+                <div style={{ padding: 60, width: 1300, border: '1px solid black', 'fontSize': '70px', display: "flex", justifyContent: "center" }}>
                    Happy valentines beautiful! 
                    <div style={{ padding: '20px', display: "flex" }}>
                         <img src={heart} alt="pic broken:(" height={50} width={50} />
@@ -56,12 +57,8 @@ const Renderedpics = pics.map((pic,index)=>{
                 </div>
             
         
-            </div>
-            
-            <div style={{ height: 130 }}></div>
-                
+            </div>                
 
-                <div style={{ height: 30 }}></div>
                 <div>
 
                     <div style={{ height: 350, fontColor: 'black', padding: '100 px', display: "flex", justifyContent: "center", margintop: 'auto', alignItems: "flex-start", flexdirection: 'column' }}>

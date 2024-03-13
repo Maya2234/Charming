@@ -14,7 +14,7 @@ const App=()=>{
         <div style={{'fontSize': '20px','font':'georgia', display: "flex", justifyContent: "center", height:30 }}>
            <i>Celebrating Sarisha Praveen Shetty & Maya Francesca Tomarchio</i> 
         </div>
-            <div style={{'fontSize': '25px', display: "flex", justifyContent: "center",height:50 }}>
+            <div style={{'fontSize': '25px', display: "flex", justifyContent: "center",height:60 }}>
                 
                     <Link to="/">Home&nbsp;&nbsp;|</Link>
                     
