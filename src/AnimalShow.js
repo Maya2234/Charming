@@ -18,11 +18,13 @@ import tanu from './Pages/Pics/tanu.JPG'
 import headshot from './Pages/Pics/headshot.JPG'
 import heart from './svg/heart.svg';
 import horse from './svg/horse.svg';
+import pub from './svg/pubg.svg';
 import btea from './svg/btea.jpg';
 import daves from './Pages/Pics/daves.jpg'
 
 const svgMap = {
-  fisheye,daves,deal,dance,hug,hug2,kiss,cpr,tanu,headshot, horse,btea
+  //fisheye,daves,deal,dance,hug,hug2,kiss,cpr,tanu,headshot, horse,btea,pub
+  horse
 };
 
 function AnimalShow({ type }) {
@@ -34,7 +36,7 @@ function AnimalShow({ type }) {
 
   return (
     <div className="animal-show" onClick={handleClick}>
-      <img className="animal" alt="animal" src={svgMap[type]} />
+      <img className="animal" alt="broke" src={svgMap[type]} />
       <img
         className="heart"
         alt="heart"

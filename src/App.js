@@ -6,6 +6,7 @@ import Valentines from './Pages/Valentines.js';
 import Test from './Pages/Test.js';
 import Home from './Pages/Home.js';
 import React from 'react';
+import tennis from './Pages/Pics/tennis.jpg'
 
 
 const App=()=>{
@@ -24,6 +25,7 @@ const App=()=>{
                    
                 </div>
                 <div>
+                
                     <Link to="/ILoveYou">&nbsp;&nbsp;Test&nbsp;&nbsp;|</Link>
                     
                 </div>
@@ -42,6 +44,10 @@ const App=()=>{
                 <Route path="/ILoveYou"> <Test/> </Route>
                 <Route path="/ForYourBirthday"> <MainPage/> </Route>
                 <Route path="/Valentines"> <Valentines/> </Route>
+            </div>
+            <div>
+            {/* <img src={tennis} alt="pic broken;(;(" height={400} width={300} /> */}
+
             </div>
         </div> 
     );    
