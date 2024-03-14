@@ -14,6 +14,7 @@ import vest from './Pics/vest.jpg'
 function timeline({ options, value, onChange }) {
   
   return (
+    <div>
     <div style={{ height: 30,'fontSize': '40px', justifyContent: "center", padding: '40 px' }}>
       <div style={{height:75}}> </div>
       <div style={{ display: "flex", justifyContent: "center", alignitems: 'right', textalign: 'center',flexdirection: 'row'}}>
@@ -151,6 +152,7 @@ function timeline({ options, value, onChange }) {
 
                 <div style={{ height: 420}}></div>
       
+    </div>
     </div>
   );
 }

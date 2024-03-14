@@ -21,7 +21,7 @@ function Test(){
     return(
     <div>
         <div className="app">
-            <button onClick={handleClick}>Add Animal</button>
+            <button onClick={handleClick}></button>
             <div className="animal-list">{renderedAnimals}</div>
         </div>
         <html>
