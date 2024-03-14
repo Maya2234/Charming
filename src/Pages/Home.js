@@ -10,6 +10,7 @@ import photoshoot from './Pics/photoshoot.JPG'
 import jb from './Pics/jb.jpg'
 import btea from './Pics/btea.jpg'
 import bondage from './Pics/bondage.JPG'
+import floor from './Pics/floor.jpg'
 import car2 from './Pics/car2.jpg'
 import car from './Pics/car.JPG'
 import flex from './Pics/flex.JPG'
@@ -38,51 +39,53 @@ function Home(){
                 <div id="02/11-03/05">
                     <p style={{fontSize:25,height:50}}>02/11-03/05</p>
                     <div style={{ marginleft:100,display: 'flex', flexdirection: 'row',height:500 }}>
-
                     <div style={{ padding: '20px',display: "flex", justifyContent: "center" }}>
-                        <img src={towels} alt="pic broken;(;(" height={400} width={300}title="Very memorable valentines day XD &#013; 02/14 " />
+                        <img src={floor} alt="pic broken;(;(" height={400} width={300}title="Live image of you fulfilling me in every way possible &#013; 2/14 " />
+                    </div>
+                    <div style={{ padding: '20px',display: "flex", justifyContent: "center" }}>
+                        <img src={towels} alt="pic broken;(;(" height={400} width={300}title="Very memorable valentines day XD &#013; 2/14 " />
                     </div>
 
                     <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
-                        <img src={pole} alt="pic broken;(;(" height={400} width={300} title="pole class! &#013; 02/18 " />
+                        <img src={pole} alt="pic broken;(;(" height={400} width={300} title="pole class! &#013; 2/18 " />
                     </div>
 
                     <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
-                        <img src={dumplings} alt="pic broken;(;(" height={300} width={400} title="ginger and chicken who!!! shrimp and what??? &#013; 02/18 "/>
+                        <img src={dumplings} alt="pic broken;(;(" height={300} width={400} title="ginger and chicken who!!! shrimp and what??? &#013; 2/18 "/>
                     </div>
 
                     <div style={{ padding: '50px', display: "flex", marginleft:20 }}>
-                        <img src={tweezers} alt="pic broken;(;(" height={300} width={400}title="Finally trusted me to doy your eyebrows- I'm obsessed &#013; 02/19 " />
+                        <img src={tweezers} alt="pic broken;(;(" height={300} width={400}title="Finally trusted me to doy your eyebrows- I'm obsessed &#013; 2/19 " />
                     </div>
                     
                     <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
-                        <img src={kiss2} alt="pic broken;(;(" height={300} width={400}title="Ghost Baby:) After our bathroom events &#013; 02/22 " />
+                        <img src={kiss2} alt="pic broken;(;(" height={300} width={400}title="Ghost Baby:) After our bathroom events &#013; 2/22 " />
                     </div>
 
                     <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
-                        <img src={bondage} alt="pic broken;(;(" height={400} width={300}title="One of my proud moments is when you made me a proud bondage kit owner &#013; 02/23 " />
+                        <img src={bondage} alt="pic broken;(;(" height={400} width={300}title="One of my proud moments is when you made me a bondage kit owner &#013; 2/23 " />
                     </div>
 
                     <div style={{ padding: '20px', display: "flex" }}>
-                        <img src={btea} alt="pic broken;(;(" height={400} width={300}title="u have so many talents and one of them is storage &#013; 02/24 " />
+                        <img src={btea} alt="pic broken;(;(" height={400} width={300}title="u have so many talents and one of them is storage &#013; 2/24 " />
                     </div>
 
                     <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
-                        <img src={cum} alt="pic broken;(;(" height={400} width={300}title="You enjoying my edible pasties a lil too much (as u should) &#013; 02/27 " />
+                        <img src={cum} alt="pic broken;(;(" height={400} width={300}title="You enjoying my edible pasties a lil too much (as u should) &#013; 2/27 " />
                     </div>
 
                     <div style={{ padding: '20px', display: "flex" }}>
-                        <img src={jb} alt="pic broken;(;(" height={400} width={300}title="Your jb era, and us learning how to haircut &#013; 02/29 " />
+                        <img src={jb} alt="pic broken;(;(" height={400} width={300}title="Your jb era, and us learning how to haircut &#013; 2/29 " />
                     </div>
 
                     <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
-                        <img src={photoshoot} alt="pic broken;(;(" height={400} width={300}title="I love how u love me in this outfit &#013; 03/1 " />
+                        <img src={photoshoot} alt="pic broken;(;(" height={400} width={300}title="I love how u love me in this outfit &#013; 3/1 " />
                     </div>
 
 
 
                     <div style={{ padding: '20px', display: "flex" }}>
-                        <img src={corsage} alt="pic broken;(;(" height={400} width={300}title="Corsage making for the night of dinner with my parents (Thanks for coming to that) &#013; 03/02 " />
+                        <img src={corsage} alt="pic broken;(;(" height={400} width={300}title="Corsage making for the night of dinner with my parents (Thanks for coming to that) &#013; 3/02 " />
                     </div>
 
 
@@ -103,7 +106,7 @@ function Home(){
                     </div>
 
                    <div style={{ padding: '20px', display: "flex" }}>
-                        <img src={jan10} alt="pic broken;(;(" height={300} width={400}title="You make my world spin around & around & around &#013; 01/25" />
+                        <img src={jan10} alt="pic broken;(;(" height={300} width={400}title="You make my world spin around & around & around &#013; 1/25" />
                     </div>
 
                     <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
@@ -111,7 +114,7 @@ function Home(){
                     </div>
 
                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
-                        <img src={jan2} alt="pic broken;(;(" height={400} width={300}title="The night of oficiality, thanks to you & courage from your old monk &#013; 01/26 " /> 
+                        <img src={jan2} alt="pic broken;(;(" height={400} width={300}title="The night of oficiality, thanks to you & courage from your old monk &#013; 1/26 " /> 
                     </div>                      
 
                     <div style={{ padding: '50px', display: "flex", marginleft:20 }}>

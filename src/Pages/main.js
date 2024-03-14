@@ -16,7 +16,7 @@ import {BsFillPlayCircleFill} from 'react-icons/bs';
 // import beer from './Pics/beer.JPG'
 // import reactDOM from 'react-dom/client'
 
-// eslint-disable-next-line
+// eslint-disable-next-lines
 function main({  }) {
   const AudioClick = () => {  
     alert("I love you")
@@ -34,7 +34,7 @@ function main({  }) {
             </div>
             
             <div style={{ height: 130 }}></div>
-                <div style={{ display: "flex", justifyContent: "center", alignItems: "center" , 'fontSize': '40px'}}>
+                <div style={{ display: "flex", justifyContent: "center", 'fontSize': '40px'}}>
                     <BsFillPlayCircleFill onClick={AudioClick}></BsFillPlayCircleFill>
                 </div>
 
