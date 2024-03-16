@@ -1,9 +1,20 @@
 import hug2 from './Pics/hug2.JPG'
 import { useState } from 'react';
 import AnimalShow from '../AnimalShow';
+import fisheye from './Pics/fisheye.jpg';
+import deal from './Pics/deal.JPG'
+import dance from './Pics/dance.JPG'
+import hug from './Pics/hug.JPG'
+import kiss from './Pics/kiss.JPG'
+import cpr from './Pics/cpr.JPG'
+import tanu from './Pics/tanu.JPG'
+import headshot from './Pics/headshot.JPG'
+import heart from '../svg/heart.svg';
+import btea from './Pics/btea.jpg';
+import daves from './Pics/daves.jpg'
 
 function getRandomAnimal() {
-  const animals = ['bird', 'cat', 'cow', 'dog', 'gator', 'horse'];
+  const animals = ['fisheye','daves','deal','dance','hug','hug2','kiss','cpr','tanu','headshot','btea'];
 
   return animals[Math.floor(Math.random() * animals.length)];
 }

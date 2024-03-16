@@ -1,6 +1,6 @@
 import image1 from './Pics/image1.JPG';
 import sound from './Pics/Senorita.mp3'
-import React from 'react';
+import React,{ useEffect } from 'react';
 import auto from './Pics/auto2.jpg'
 import canoe from './Pics/canoe.JPG'
 import car from './Pics/car.JPG'
@@ -8,6 +8,7 @@ import car2 from './Pics/car2.jpg'
 import flex from './Pics/flex.JPG'
 import lake from './Pics/lake.JPG'
 import {BsFillPlayCircleFill} from 'react-icons/bs';
+import { useState } from 'react';
 // import crouton from './Pics/crouton.jpg'
 // import family from './Pics/family.JPG'
 // import bar from './Pics/bar.jpg'
@@ -17,11 +18,22 @@ import {BsFillPlayCircleFill} from 'react-icons/bs';
 // import reactDOM from 'react-dom/client'
 
 // eslint-disable-next-lines
-function main({  }) {
-  const AudioClick = () => {  
-    alert("I love you")
-    new Audio(sound).play();
-};
+function Main({  }) {
+    const [audioElement, setAudioElement] = useState();
+    useEffect(() => {
+        setAudioElement(new Audio(sound));
+      }, []);
+      const AudioClick = () => {  
+        audioElement.play();
+      };
+      // stop
+      const AudioStopClick = () => {  
+        audioElement.pause();
+      };
+//   const AudioClick = () => {  
+//     alert("I love you")
+//     new Audio(sound).play();
+// };
 
   return (
     <div>
@@ -98,4 +110,4 @@ function main({  }) {
   );
 }
 
-export default main;
+export default Main;
