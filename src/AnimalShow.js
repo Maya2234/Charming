@@ -17,13 +17,11 @@ import cpr from './Pages/Pics/cpr.JPG'
 import tanu from './Pages/Pics/tanu.JPG'
 import headshot from './Pages/Pics/headshot.JPG'
 import heart from './svg/heart.svg';
-import horse from './svg/horse.svg';
 import btea from './svg/btea.jpg';
 import daves from './Pages/Pics/daves.jpg'
 
 const svgMap = {
-  fisheye,daves,deal,dance,hug,hug2,kiss,cpr,tanu,headshot, horse,btea,
-  horse
+  fisheye,daves,deal,dance,hug,hug2,kiss,cpr,tanu,headshot, btea
 };
 
 function AnimalShow({ type }) {
@@ -45,5 +43,6 @@ function AnimalShow({ type }) {
     </div>
   );
 }
+
 
 export default AnimalShow;

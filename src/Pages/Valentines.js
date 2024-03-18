@@ -23,26 +23,32 @@ import '../App.css';
 
 
 // eslint-disable-next-line
-function getRandomPic({}){
-    const pics = ['fisheye','daves','deal','dance','hug','hug2','kiss','cpr','tanu','headshot',];
+// function getRandomPic({}){
+//     const pics = ['fisheye','daves','deal','dance','hug','hug2','kiss','cpr','tanu','headshot',];
     
-    var random = Math.floor(Math.random()*pics.length);
-    var image = pics[random]
-    document.getElementById('image_shower').src = `./src/Pics/${image}`; 
+//     var random = Math.floor(Math.random()*pics.length);
+//     var image = pics[random]
+//     document.getElementById('image_shower').src = `./src/Pics/${image}`; 
 
-};
+// };
 function Main({  }) {
 // eslint-disable-next-line
-const [pics,setPics]=useState([]);
 
-const handleClick = () => {  
-    setPics([...pics,getRandomPic()]);
-};
+// const [pics,setPics]=useState([]);
 
-const Renderedpics = pics.map((pic,index)=>{
-    return <PicShow key={index} type = {pic}/>
+// const handleClick = () => {  
+//     setPics([...pics,getRandomPic()]);
+// };
+
+// const Renderedpics = pics.map((pic,index)=>{
+//     return <PicShow key={index} type = {pic}/>
+// });
+const myImg = document.getElementById("myImg");
+const myButton = document.getElementById("myButton");
+
+myButton.addEventListener("click", function() {
+  myImg.src = "image2.jpg";
 });
-
 
   return (
     <div>
@@ -82,7 +88,10 @@ const Renderedpics = pics.map((pic,index)=>{
                 <div>
                 <div div id="img-container" style={{ display: "flex", justifyContent: "center", alignItems: "center",fontisze:'100px'}}>
                     
-                        <button onClick={getRandomPic} style={{height:30,width:100,background:'green'}}></button> 
+                        {/* <button onClick={getRandomPic} style={{height:30,width:100,background:'green'}}></button>  */}
+                        <img id="myImg" src="image1.jpg"img/>
+                        <button id="myButton">Change Image</button>
+                        
 
                 </div>
                 </div>
@@ -90,38 +99,7 @@ const Renderedpics = pics.map((pic,index)=>{
 
                 </div>
 
-                {/* first row of pics
-                <div style={{ display: 'flex', flexdirection: 'row', justifyContent: "center" }}>
-
-                    <div style={{ padding: '20px', display: "flex" }}>
-                        <img src={lake} alt="pic broken;(;(" height={290} width={520} />
-                    </div>
-
-                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
-                        <img src={canoe} alt="pic broken;(;(" height={400} width={300} />
-                    </div>
-
-                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
-                        <img src={auto} alt="pic broken;(;(" height={300} width={400} />
-                    </div>
-                </div>
-
-                
-                <div style={{ display: 'flex', flexdirection: 'row', justifyContent: "center" }}>
-                    <div style={{ padding: '20px', display: "flex" }}>
-                        <img src={image1} alt="pic broken;(;(" height={380} width={280} />
-                    </div>
-                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
-                        <img src={car} alt="pic broken;(;(" height={280} width={360} />
-                    </div>
-                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
-                        <img src={flex} alt="pic broken;(;(" height={400} width={300} />
-                    </div>
-
-                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
-                        <img src={car2} alt="pic broken;(;(" height={260} width={350} />
-                </div>
-            </div>  */}
+                {}
         </div> 
   </div>            
   );

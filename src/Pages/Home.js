@@ -28,14 +28,20 @@ import jan11 from './Pics/jan11.jpg'
 import jan12 from './Pics/jan12.jpg'
 
 function Home(){
+    var x = "dddd";
+    console.log(x);
 
     return(
         <html>
             <head>
-            
             </head>
             <body>
+            
+ 
+<div id="output"></div> 
+                
                 <p style={{fontSize:12}}>*touch them pics for more details;</p>
+                
                 <div id="02/11-03/05">
                     <p style={{fontSize:25,height:50}}>02/11-03/05</p>
                     <div style={{ marginleft:100,display: 'flex', flexdirection: 'row',height:500 }}>
