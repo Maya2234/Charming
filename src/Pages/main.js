@@ -27,9 +27,9 @@ function Main({  }) {
         audioElement.play();
       };
       // stop
-      const AudioStopClick = () => {  
-        audioElement.pause();
-      };
+    //   const AudioStopClick = () => {  
+    //     audioElement.pause();
+    //   };
 //   const AudioClick = () => {  
 //     alert("I love you")
 //     new Audio(sound).play();
