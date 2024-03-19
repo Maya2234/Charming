@@ -1,4 +1,9 @@
 
+body {
+
+  background-color: pink;
+  
+  }
 .app {
   display: flex;
   flex-direction: column;

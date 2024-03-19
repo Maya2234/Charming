@@ -1,24 +1,12 @@
 import './AnimalShow.css';
 import { useState } from 'react';
-import auto from './Pages/Pics/auto2.jpg'
-import canoe from './Pages/Pics/canoe.JPG'
-import car from './Pages/Pics/car.JPG'
-import car2 from './Pages/Pics/car2.jpg'
-import flex from './Pages/Pics/flex.JPG'
-import lake from './Pages/Pics/lake.JPG'
-//import heart from './Pics/heart.png'
-import fisheye from './Pages/Pics/fisheye.jpg';
-import deal from './Pages/Pics/deal.JPG'
-import dance from './Pages/Pics/dance.JPG'
 import hug from './Pages/Pics/hug.JPG'
 import hug2 from './Pages/Pics/hug2.JPG'
 import kiss from './Pages/Pics/kiss.JPG'
 import bondage from './Pages/Pics/bondage.JPG'
 import cpr from './Pages/Pics/cpr.JPG'
-import tanu from './Pages/Pics/tanu.JPG'
 import headshot from './Pages/Pics/headshot.JPG'
 import heart from './svg/heart.svg';
-import btea from './svg/btea.jpg';
 import daves from './Pages/Pics/daves.jpg'
 import haircut from './Pages/Pics/haircut.PNG'
 import homeless from './Pages/Pics/homeless.JPG'

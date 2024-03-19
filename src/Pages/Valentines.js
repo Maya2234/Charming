@@ -1,22 +1,13 @@
 // import sound from './Pics/Senorita.mp3'
 import React from 'react';
 import heart from './Pics/heart.png'
-import fisheye from './Pics/fisheye.jpg';
-import deal from './Pics/deal.JPG'
-import dance from './Pics/dance.JPG'
-import hug from './Pics/hug.JPG'
-import hug2 from './Pics/hug2.JPG'
-import kiss from './Pics/kiss.JPG'
-import cpr from './Pics/cpr.JPG'
-import tanu from './Pics/tanu.JPG'
-import headshot from './Pics/headshot.JPG'
 import {useState} from 'react';
 import '../App.css';
 import AnimalShow from '../AnimalShow';
 
 var AnimalIndex=0;
 function getRandomAnimal() {
-    const animals = ['daves','hug','hug2','kiss','cpr','headshot','bondage'];
+    const animals = ['daves','hug','hug2','kiss','cpr','headshot','bondage','haircut','cook','cake','homeless'];
 
 
   AnimalIndex=Math.floor(Math.random() * animals.length);

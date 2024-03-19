@@ -3,7 +3,6 @@ import Route from'./Pages/Route.js';
 import Timeline from './Pages/timeline.js';
 import MainPage from './MainPage.js';
 import Valentines from './Pages/Valentines.js';
-import Test from './Pages/Test.js';
 import Home from './Pages/Home.js';
 import React from 'react';
 import chair from './Pages/Pics/chair.png'
@@ -24,11 +23,7 @@ const App=()=>{
                     <Link to="/ForYourBirthday">&nbsp;&nbsp;Love Letter&nbsp;&nbsp;|</Link>
                    
                 </div>
-                <div>
                 
-                    {/* <Link to="/ILoveYou">&nbsp;&nbsp;Test&nbsp;&nbsp;|</Link> */}
-                    
-                </div>
 
                 <div>
                     <Link to="/timeline">&nbsp;&nbsp;Timeline&nbsp;&nbsp;|</Link>
@@ -41,7 +36,6 @@ const App=()=>{
             <div>
                 <Route path="/"> <Home/> </Route>
                 <Route path="/timeline"> <Timeline/> </Route>
-                <Route path="/ILoveYou"> <Test/> </Route>
                 <Route path="/ForYourBirthday"> <MainPage/> </Route>
                 <Route path="/Valentines"> <Valentines/> </Route>
             </div>
