@@ -28,9 +28,7 @@ import jan11 from './Pics/jan11.jpg'
 import jan12 from './Pics/jan12.jpg'
 
 function Home(){
-    var x = "dddd";
-    console.log(x);
-
+   
     return(
         <html>
             <head>

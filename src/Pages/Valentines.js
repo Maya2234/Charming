@@ -1,13 +1,5 @@
-// import image1 from './Pics/image1.JPG';
 // import sound from './Pics/Senorita.mp3'
 import React from 'react';
-import PicShow from '../PicShow';
-// import auto from './Pics/auto2.jpg'
-// import canoe from './Pics/canoe.JPG'
-// import car from './Pics/car.JPG'
-// import car2 from './Pics/car2.jpg'
-// import flex from './Pics/flex.JPG'
-// import lake from './Pics/lake.JPG'
 import heart from './Pics/heart.png'
 import fisheye from './Pics/fisheye.jpg';
 import deal from './Pics/deal.JPG'
@@ -20,89 +12,71 @@ import tanu from './Pics/tanu.JPG'
 import headshot from './Pics/headshot.JPG'
 import {useState} from 'react';
 import '../App.css';
+import AnimalShow from '../AnimalShow';
+
+var AnimalIndex=0;
+function getRandomAnimal() {
+    const animals = ['daves','hug','hug2','kiss','cpr','headshot','bondage'];
 
 
-// eslint-disable-next-line
-// function getRandomPic({}){
-//     const pics = ['fisheye','daves','deal','dance','hug','hug2','kiss','cpr','tanu','headshot',];
-    
-//     var random = Math.floor(Math.random()*pics.length);
-//     var image = pics[random]
-//     document.getElementById('image_shower').src = `./src/Pics/${image}`; 
+  AnimalIndex=Math.floor(Math.random() * animals.length);
+  return animals[AnimalIndex];
+}
 
-// };
 function Main({  }) {
-// eslint-disable-next-line
+    const [animals, setAnimals] = useState(["daves"]);
 
-// const [pics,setPics]=useState([]);
+    const handleClick = () => {
+      setAnimals(getRandomAnimal());
+    };
 
-// const handleClick = () => {  
-//     setPics([...pics,getRandomPic()]);
-// };
-
-// const Renderedpics = pics.map((pic,index)=>{
-//     return <PicShow key={index} type = {pic}/>
-// });
-const myImg = document.getElementById("myImg");
-const myButton = document.getElementById("myButton");
-
-myButton.addEventListener("click", function() {
-  myImg.src = "image2.jpg";
-});
 
   return (
     <div>
         <div style={{ padding: '20px' }}>
             
-            <div classname='App'>
-                <div style={{ padding: 60, width: 1300, border: '1px solid black', 'fontSize': '70px', display: "flex", justifyContent: "center" }}>
-                   Happy valentines beautiful! 
+            <div classname='App' style={{'fontsize':'50px'}}>
+                 Among other things,
+                <div style={{ padding: 40, width: 1300,height:40, border: '1px solid black', 'fontSize': '40px', display: "flex", justifyContent: "center" }}>
+                   HAPPY TWO MONTHS
                    <div style={{ padding: '20px', display: "flex" }}>
                         <img src={heart} alt="pic broken:(" height={50} width={50} />
                     </div>
                 </div>
             
-        
             </div>                
 
                 <div>
-
                     <div style={{ height: 350, fontColor: 'black', padding: '100 px', display: "flex", justifyContent: "center", margintop: 'auto', alignItems: "flex-start", flexdirection: 'column' }}>
                         <div style={{ height: 300, width: 500 ,'fontSize': '30px'}}>
-                            
                             <br />
-                            To celebrate this special day, 
-                            <br />
-                            <br />
-                            I want to show you just how much
+                            To celebrate our wonderful, sparkling, & radiant love, 
+                            I'd like to give you just a little taste of some of the reasons why मुझे तुमसे बहुत बाप्यार है|
                             <br />
                             <br />
-                            मुझे तुमसे बहुत बाप्यार है|
                             <br />
-                            <br />
-                            with all the reasons that I love you. 
-                            <br />
+                            Click for more↓
                         </div>
                     </div>
                 </div>
                 <div>
-                <div div id="img-container" style={{ display: "flex", justifyContent: "center", alignItems: "center",fontisze:'100px'}}>
-                    
-                        {/* <button onClick={getRandomPic} style={{height:30,width:100,background:'green'}}></button>  */}
-                        <img id="myImg" src="image1.jpg"img/>
-                        <button id="myButton">Change Image</button>
-                        
-
+                <div div id="img-container" style={{ fontisze:'100px'}}>
+                
+                <div className="app" style={{height:70}}>
+                    <button id="pubgButton" onClick={handleClick}></button>
                 </div>
-                </div>
-                <div style={{height:500}}>
-
+                <div className="animal-list">
+                    <AnimalShow type={animals} index={AnimalIndex} />
                 </div>
 
-                {}
-        </div> 
-  </div>            
-  );
-}
+        </div>
+    </div>
+        <div style={{height:500}}>
+
+        </div>
+        
+    </div> 
+</div>    
+);}
 
 export default Main;

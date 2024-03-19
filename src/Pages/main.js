@@ -74,7 +74,7 @@ function Main({  }) {
                     <div style={{ height: 420}}></div>
                 </div>
                 {/* first row of pics */}
-                <div style={{ display: 'flex', flexdirection: 'row', justifyContent: "center" }}>
+                <div style={{ display: 'flex',  justifyContent: "center" }}>
 
                     <div style={{ padding: '20px', display: "flex" }}>
                         <img src={lake} alt="pic broken;(;(" height={290} width={520} />

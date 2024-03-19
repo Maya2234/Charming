@@ -26,7 +26,7 @@ const App=()=>{
                 </div>
                 <div>
                 
-                    <Link to="/ILoveYou">&nbsp;&nbsp;Test&nbsp;&nbsp;|</Link>
+                    {/* <Link to="/ILoveYou">&nbsp;&nbsp;Test&nbsp;&nbsp;|</Link> */}
                     
                 </div>
 
@@ -34,7 +34,7 @@ const App=()=>{
                     <Link to="/timeline">&nbsp;&nbsp;Timeline&nbsp;&nbsp;|</Link>
                 </div>
                 <div>
-                    <Link to="/Valentines">&nbsp;&nbsp;Valentines</Link>
+                    <Link to="/Valentines">&nbsp;&nbsp;So Many Things.</Link>
                     <mainPage/>
                 </div>
             </div>
