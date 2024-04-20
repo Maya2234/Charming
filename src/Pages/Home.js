@@ -43,7 +43,7 @@ function Home(){
                             
                 <p style={{fontSize:12}}>*touch them pics for more details;</p>
 
-                <div id="03/13-04/11" style={{height:700}}>
+                <div id="03/13-04/11" style={{height:800}}>
                     <p style={{fontSize:25,height:15}}>03/13-04/11</p>
                     <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left',padding:20}}>
                         <p style={{width:601}}>This month was, dare I say it, a great one. An entire month of us seeing each other every single day. What more could I possibly ask for? In this short couple of weeks, we've both come so far. You've completed your pledge process, gotten travelcats off the ground, booked and unbooked a summer trip. </p><div style={{width:40}}></div><p style={{width:600}}> I've been working my internship, started going on walks & runs and learning Chinese. Together we've dyed our hair, made glasses, cooked and baked & meal prepped, watched movies, and learned about each other, and tried to meet each others needs. </p> <div style={{width:40}}></div><p style={{width:600}}>When I look back on this month, I'm proud of both of us, and grateful to have you in my life. Up until this semester, I was thinking what a relief it would be to finally get some time out of Cincinnati. </p><div style={{width:40}}></div><p style={{width:600}}> But when it came down to it, my reality was that with you there, there was not anywhere else I'd rather be. For the first time this semester, I could not get enough time in Cincinnati. </p>
