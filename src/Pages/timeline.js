@@ -11,17 +11,14 @@ import train2 from './Pics/train2.JPG'
 import tennis from './Pics/tennis.jpg'
 import vest from './Pics/vest.jpg'
 
-function timeline({ options, value, onChange }) {
+function timeline() {
   
   return (
-    <div style={{ height: 30,'fontSize': '40px', justifyContent: "center", padding: '40 px' }}>
-      <div style={{height:75}}> </div>
-      <div style={{ display: "flex", justifyContent: "center", alignitems: 'right', textalign: 'center',flexdirection: 'row'}}>
+    <div style={{ height: 2900,'fontSize': '40px', justifyContent: "center", padding: '40 px' }}>
     <div style={{'fontsize': '60px', height:125, display: "flex", justifyContent: "center", alignitems: 'center', textalign: 'center',flexdirection: 'row'}}>
       Story of Us:
       </div>
       
-      </div>
       <div style={{  fontColor: 'black', padding: '100 px', display: "flex", justifyContent: "left", margintop: 'auto', alignItems: "flex-start", flexdirection: 'column' }}>
                     <div style={{  height:100,width: 500,'fontSize': '30px'}}>
                         One fateful day, March 26 2023, two souls rightous for each other matched on tinder. 
