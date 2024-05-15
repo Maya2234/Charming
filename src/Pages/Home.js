@@ -56,9 +56,14 @@ function Home(){
                 <p style={{fontSize:12}}>*touch them pics for more details;</p>
 
                 <div id="" style={{height:1000}}>
-                    <p style={{fontSize:25,height:15}}>4/23-5/1</p>
+                    <p style={{fontSize:25,height:15}}>4/23-5/1</p>  
+                    <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left',padding:20}}    >            
+                     <p style={{width:500,height:60}}>I really really loved finished out the semester strong by your side. We did lots of fun things and I think really cherised and made the most of these 2 weeks. I loved being around you, I felt very safe. It was easy to be inside our family of you, me and hibachi. I'm so happy we could create an environment like that one together. </p> 
+                     <div style={{width:60}}></div>
+                     <p style={{width:601}}>Being away from you after that time is hard. I know you dont know, but its not easy for me to be without you. You complete me and without you I lack crucial parts of myself. It brings me so much joy to reflect on us, I love to think of you and look at you while you are asleep and at peace. Thank you for sticking things out with me thus far. I'm grateful for how far we've gotten.</p> <div style={{width:40}}></div><p style={{width:601}}>I know things arent the easiest anymore, and I know they never were. But I dont think any worthy connection would be or could be easy. We are both strong and passionate, and so successful in what we do. There is bound to be implications and flaws in both of us. I am sorry for not delivering like I should be, thank you for communicating with me.  </p> <div style={{width:40}}></div><p>to much more time together<br></br>love, maya</p>
+</div>     
+
                     <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left',padding:20,height:500}}>
-                        {/* <p style={{width:601}}>I really really loved finished out the semester strong by your side. We did lots of fun things and I think really cherised and made the most of these 2 weeks. </p> <p style={{width:601}}> </p> */}
 
                     
                     <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>

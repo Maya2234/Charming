@@ -1,4 +1,3 @@
-import React from 'react';
 import bar from './Pics/bar.jpg'
 import bed from './Pics/bed.HEIC'
 import prom from './Pics/prom3.JPG'
@@ -10,11 +9,19 @@ import train from './Pics/train.jpg'
 import train2 from './Pics/train2.JPG'
 import tennis from './Pics/tennis.jpg'
 import vest from './Pics/vest.jpg'
+import sound from './Pics/Saza.mp3'
+import {BsFillPlayCircleFill} from 'react-icons/bs';
+import { useState } from 'react';
+import React,{ UseEffect } from 'react';
 
-function timeline() {
+
+function timeline({}) {
   
+      
   return (
     <div style={{ height: 2900,'fontSize': '40px', justifyContent: "center", padding: '40 px' }}>
+      <div style={{ height: 130 }}></div>
+              
     <div style={{'fontsize': '60px', height:125, display: "flex", justifyContent: "center", alignitems: 'center', textalign: 'center',flexdirection: 'row'}}>
       Story of Us:
       </div>
