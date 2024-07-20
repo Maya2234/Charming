@@ -44,7 +44,19 @@ import AFF from './Pics/AFF.JPG'
 import patel from './Pics/patel.jpg'
 import nap from './Pics/nap.jpg'
 import ambos from './Pics/ambos.JPG'
-
+import sky from './Pics/Pattaya/sky.jpg'
+import recap from './Pics/Pattaya/Pattaya recap.mp4'
+import sign from './Pics/Pattaya/sign.JPG'
+import lap from './Pics/Pattaya/lap.JPG'
+import hat from './Pics/Pattaya/hat.jpg'
+import beer from './Pics/Pattaya/beer.JPG'
+import bed from './Pics/Pattaya/bed.JPG'
+import muy from './Pics/Pattaya/muy.jpg'
+import headstand from './Pics/Pattaya/headstand.JPG'
+import ppole from './Pics/Pattaya/ppole.JPG'
+import shoes from './Pics/Pattaya/shoes.JPG'
+import beach from './Pics/Pattaya/beach.JPG'
+import jalwa from './Pics/Pattaya/jalwa.JPG'
 
 function Home(){
    
@@ -53,68 +65,80 @@ function Home(){
            
             
                             
-                <p style={{fontSize:12}}>*touch them pics for more details;</p>
+                <p style={{fontSize:12,height:100}}>*touch them pics for more details;</p>
 
-                <div id="" style={{height:1000}}>
-                    <p style={{fontSize:25,height:15}}>4/23-5/1</p>  
-                    <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left',padding:20}}    >            
-                     <p style={{width:500,height:60}}>I really really loved finished out the semester strong by your side. We did lots of fun things and I think really cherised and made the most of these 2 weeks. I loved being around you, I felt very safe. It was easy to be inside our family of you, me and hibachi. I'm so happy we could create an environment like that one together. </p> 
-                     <div style={{width:60}}></div>
-                     <p style={{width:601}}>Being away from you after that time is hard. I know you dont know, but its not easy for me to be without you. You complete me and without you I lack crucial parts of myself. It brings me so much joy to reflect on us, I love to think of you and look at you while you are asleep and at peace. Thank you for sticking things out with me thus far. I'm grateful for how far we've gotten.</p> <div style={{width:40}}></div><p style={{width:601}}>I know things arent the easiest anymore, and I know they never were. But I dont think any worthy connection would be or could be easy. We are both strong and passionate, and so successful in what we do. There is bound to be implications and flaws in both of us. I am sorry for not delivering like I should be, thank you for communicating with me.  </p> <div style={{width:40}}></div><p>to much more time together<br></br>love, maya</p>
-</div>     
+                <div id="" style={{height:1700}}> 
+                    {/* seperates next 2 chunks from rest? */}
+                    <p style={{fontSize:25,height:15}}>6/17 - 6/27</p>  
+                    <p style={{fontSize:20,textAlign:'center'}}>THAILAND</p>
+                    <p style={{fontSize:10,textAlign:'center'}}>E D I T I O N</p>
 
-                    <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left',padding:20,height:500}}>
 
-                    
-                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
-                        <img src={brunch} alt="pic broken;(;(" height={300} width={500}title=" Fancy shmancy brunch yum, tipsy &#013; 4/21 " />
-                    </div>    
-
-                    <div style={{ padding: '20px', display: "flex" }}>
-                        <img src={cat} alt="pic broken;(;(" height={400} width={300}title="A new member was adopted into our family &#013; 4/23 " />
+                    <div style={{display: 'flex', flexdirection: 'row', height:150,'fontSize':'18px', textAlign:'left', padding:20}}    >            
+                        <p style={{width:500,height:80}}> Dear my long distance love. Through complicated situations, through other lovers, through distance, through obstacles, through time, I can't think of one thing that could steer my heart in any other direction. </p> 
+                        <div style={{width:60}}></div>
+                        <p style={{width:601, height: 100}}> I know its been a long time. I know time changes us, and neither of us will be the same person, even as one month ago. But one thing I am so sure of this whatever is between you and me. You can call it whatever you want, you can try to ignore it, you can look away. But it will not change the fact the undeniable bond and chemistry we have face to face, body to body. What has been between us this entire past almost one year. Since last september, even before it could be acknowledged. </p> <div style={{width:40}}></div><p style={{width:601}}>I've been nervous. You make me so nervous. Things are tense for us. I know uncertainty is hard and we've both had full plates. I've missed you, and cant wait to spend time tending to our hearts, helping you move, smoking, watching tv and bollywood, shopping, warby parker, driving lessons, many more old and new hobbies of ours.  </p> <div style={{width:40}}></div><p>to much more time together<br></br>love, maya</p>
                     </div>     
 
-                    <div style={{ marginleft:100,display: 'flex', flexdirection: 'row',height:500 }}>
-                   
-                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
-                        <img src={family2} alt="pic broken;(;(" height={400} width={300} title="FAMILY TIME&#013; 4/24 " />
-                    </div>
+                    <div style={{height:60}}></div>
 
-                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
-                        <img src={nap} alt="pic broken;(;(" height={300} width={400}title="Family nap sesh &#013; 4/25 " />
-                    </div>
-
-                    <div style={{ padding: '50px', display: "flex", marginleft:20 }}>
-                        <img src={hike} alt="pic broken;(;(" height={300} width={500}title="Hike to the mysterious park - only to find BEACH! &#013; 4/27 " />
-                    </div>
+                    <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left', padding:20,height:500}}>
+                        <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
+                            <img src={beer} alt="pic broken;(;(" height={300} width={400}title="Two models in Jalwa VIP &#013; 6/20 " />
+                        </div>    
+                        <div style={{ marginleft:100,display: 'flex', flexdirection: 'row',height:500 }}>
+                            <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
+                                <img src={jalwa} alt="pic broken;(;(" height={400} width={300} title="good time w the belly dancers &#013; 6/20 "/>
+                            </div>                  
 
                     <div style={{ padding: '20px',display: "flex", justifyContent: "center" }}>
-                        <img src={blond} alt="pic broken;(;(" height={300} width={400}title="my hair is finally no longer virgen &#013;  4/28" />
-                    </div>
-                      
-                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
-                        <img src={AFF} alt="pic broken;(;(" height={500} width={300} title="my red hair debut at the asian food festival, VERY red &#013; 4/28 "/>
-                    </div>
-
-                    <div style={{ padding: '20px', display: "flex" }}>
-                        <img src={party} alt="pic broken;(;(" height={400} width={300}title="the most fun party I've ever been to. Had the best time with you &#013; 4/29 " />
-                    </div>  
-
-                    <div style={{ padding: '20px', display: "flex" }}>
-                        <img src={ambos} alt="pic broken;(;(" height={400} width={300}title="This looks like a magazine cover &#013; 4/29" />
+                        <img src={headstand} alt="pic broken;(;(" height={300} width={400}title="matching headstands at the beach, one of our many common talents &#013;  6/21" />
                     </div>
 
                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
-                        <img src={patel} alt="pic broken;(;(" height={400} width={300}title="my first time at Patel brothers, was a phenomenal experience. I especially love my kajal &#013; 4/30 " />
+                        <img src={beach} alt="pic broken;(;(" height={300} width={400}title="I love this photo so much i cant express it to you. Being here with you was something else. &#013; 6/21 " />
                     </div>
 
+
+                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
+                        <img src={sign} alt="pic broken;(;(" height={300} width={500} title="This was very romantic & sexy & ethereal &#013; 6/21 " />
+                    </div>
+
+
+                      
+
+
+
+                    <div style={{ padding: '20px', display: "flex" }}>
+                        <img src={bed} alt="pic broken;(;(" height={400} width={300}title="Eating my Kanom Thong Yord & sleeping in your lap &#013; 6/22 " />
+                    </div>     
+
+                    <div style={{ padding: '20px', display: "flex" }}>
+                        <img src={ppole} alt="pic broken;(;(" height={400} width={300}title="proof of our ever expanding roster of pole tricks- omg so proud of you! &#013; 6/23 " />
+                    </div>  
+
+                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
+                        <img src={sky} alt="pic broken;(;(" height={400} width={300}title="Shrooms in the sky garden!!!!! &#013; 6/23 " />
+                    </div>
+
+                    <div style={{ padding: '50px', display: "flex", marginleft:20 }}>
+                        <img src={lap} alt="pic broken;(;(" height={300} width={400}title="2 mermaids in love & being romantic&#013; 6/24 " />
+                    </div>
+
+
+                    <div style={{ padding: '20px', display: "flex" }}>
+                        <img src={shoes} alt="pic broken;(;(" height={300} width={400}title="u can use any part of me as a prop anytime u want j ring me &#013; 6/24" />
+                    </div>
+
+
+
                     <div style={{ padding: '20px',display: "flex", justifyContent: "center" }}>
-                        <img src={bye} alt="pic broken;(;(" height={400} width={300}title=" A bittersweet but beautiful farewell&#013; 5/1 " />
+                        <img src={hat} alt="pic broken;(;(" height={400} width={300}title=" Shopping in Bangkok for hats and fake balenciaga&#013; 6/26 " />
                     </div>
                 </div>
                 
                 </div>
-                <div style={{height:1000}}>
+                <div style={{height:1300}}>
                     <p style={{fontSize:25,height:15}}>03/13-04/11</p>
                     <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left',padding:20}}>
                         <p style={{width:601}}>This month was, dare I say it, a great one. An entire month of us seeing each other every single day. What more could I possibly ask for? In this short couple of weeks, we've both come so far. You've completed your pledge process, gotten travelcats off the ground, booked and unbooked a summer trip. </p><div style={{width:40}}></div><p style={{width:600}}> I've been working my internship, started going on walks & runs and learning Chinese. Together we've dyed our hair, made glasses, cooked and baked & meal prepped, watched movies, and learned about each other, and tried to meet each others needs. </p> <div style={{width:40}}></div><p style={{width:600}}>When I look back on this month, I'm proud of both of us, and grateful to have you in my life. Up until this semester, I was thinking what a relief it would be to finally get some time out of Cincinnati. </p><div style={{width:40}}></div><p style={{width:600}}> But when it came down to it, my reality was that with you there, there was not anywhere else I'd rather be. For the first time this semester, I could not get enough time in Cincinnati. </p>
@@ -169,7 +193,120 @@ function Home(){
                 </div>
                 </div>
                 </div>
-                <div style={{height:500}}></div>
+                <div id="" style={{height:1000}}>
+                    <p style={{fontSize:25,height:15}}>4/23-5/1</p>  
+                    <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left',padding:20}}    >            
+                        <p style={{width:500,height:100}}>I really really loved finished out the semester strong by your side. We did lots of fun things and I think really cherised and made the most of these 2 weeks. I loved being around you, I felt very safe. It was easy to be inside our family of you, me and hibachi. I'm so happy we could create an environment like that one together. </p> 
+                        <div style={{width:60,height:100}}></div>
+                        <p style={{width:601}}>Being away from you after that time is hard. I know you dont know, but its not easy for me to be without you. You complete me and without you I lack crucial parts of myself. It brings me so much joy to reflect on us, I love to think of you and look at you while you are asleep and at peace. Thank you for sticking things out with me thus far. I'm grateful for how far we've gotten.</p> <div style={{width:40}}></div><p style={{width:601}}>I know things arent the easiest anymore, and I know they never were. But I dont think any worthy connection would be or could be easy. We are both strong and passionate, and so successful in what we do. There is bound to be implications and flaws in both of us. I am sorry for not delivering like I should be, thank you for communicating with me.  </p> <div style={{width:40}}></div><p>to much more time together<br></br>love, maya</p>
+                    </div>     
+                    <div style={{height:30}}></div>
+                    <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left',padding:20,height:500}}>
+  
+                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
+                        <img src={brunch} alt="pic broken;(;(" height={300} width={500}title=" Fancy shmancy brunch yum, tipsy &#013; 4/21 " />
+                    </div>    
+
+                    <div style={{ padding: '20px', display: "flex" }}>
+                        <img src={cat} alt="pic broken;(;(" height={400} width={300}title="A new member was adopted into our family &#013; 4/23 " />
+                    </div>     
+
+                    <div style={{ marginleft:100,display: 'flex', flexdirection: 'row',height:500 }}>
+                   
+                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
+                        <img src={family2} alt="pic broken;(;(" height={400} width={300} title="FAMILY TIME&#013; 4/24 " />
+                    </div>
+
+                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
+                        <img src={nap} alt="pic broken;(;(" height={300} width={400}title="Family nap sesh &#013; 4/25 " />
+                    </div>
+
+                    <div style={{ padding: '50px', display: "flex", marginleft:20 }}>
+                        <img src={hike} alt="pic broken;(;(" height={300} width={500}title="Hike to the mysterious park - only to find BEACH! &#013; 4/27 " />
+                    </div>
+
+                    <div style={{ padding: '20px',display: "flex", justifyContent: "center" }}>
+                        <img src={blond} alt="pic broken;(;(" height={300} width={400}title="my hair is finally no longer virgen &#013;  4/28" />
+                    </div>
+                      
+                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
+                        <img src={AFF} alt="pic broken;(;(" height={500} width={300} title="my red hair debut at the asian food festival, VERY red &#013; 4/28 "/>
+                    </div>
+
+                    <div style={{ padding: '20px', display: "flex" }}>
+                        <img src={party} alt="pic broken;(;(" height={400} width={300}title="the most fun party I've ever been to. Had the best time with you &#013; 4/29 " />
+                    </div>  
+
+                    <div style={{ padding: '20px', display: "flex" }}>
+                        <img src={ambos} alt="pic broken;(;(" height={400} width={300}title="This looks like a magazine cover &#013; 4/29" />
+                    </div>
+
+                   <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
+                        <img src={patel} alt="pic broken;(;(" height={400} width={300}title="my first time at Patel brothers, was a phenomenal experience. I especially love my kajal &#013; 4/30 " />
+                    </div>
+
+                    <div style={{ padding: '20px',display: "flex", justifyContent: "center" }}>
+                        <img src={bye} alt="pic broken;(;(" height={400} width={300}title=" A bittersweet but beautiful farewell&#013; 5/1 " />
+                    </div>
+                </div>
+                
+                </div>
+                <div style={{height:1500}}>
+                    <p style={{fontSize:25,height:15}}>03/13-04/11</p>
+                    <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left',padding:20}}>
+                        <p style={{width:601}}>This month was, dare I say it, a great one. An entire month of us seeing each other every single day. What more could I possibly ask for? In this short couple of weeks, we've both come so far. You've completed your pledge process, gotten travelcats off the ground, booked and unbooked a summer trip. </p><div style={{width:40}}></div><p style={{width:600}}> I've been working my internship, started going on walks & runs and learning Chinese. Together we've dyed our hair, made glasses, cooked and baked & meal prepped, watched movies, and learned about each other, and tried to meet each others needs. </p> <div style={{width:40}}></div><p style={{width:600}}>When I look back on this month, I'm proud of both of us, and grateful to have you in my life. Up until this semester, I was thinking what a relief it would be to finally get some time out of Cincinnati. </p><div style={{width:40}}></div><p style={{width:600}}> But when it came down to it, my reality was that with you there, there was not anywhere else I'd rather be. For the first time this semester, I could not get enough time in Cincinnati. </p>
+                    </div>
+                    
+                    <div style={{ marginleft:100,display: 'flex', flexdirection: 'row',height:1000 }}>
+                    <div style={{ padding: '50px', display: "flex", marginleft:20, height:600}}>
+                        <img src={ramadan} alt="pic broken;(;(" height={500} width={400}title="I got to dress up in your traditionals!!!! (was fighting for my life) &#013; 3/29 " />
+                    </div>
+                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
+                        <img src={holi2} alt="pic broken;(;(" height={400} width={300} title="I love love loved holi baby - u know I like my color &#013; 3/30 " />
+                    </div>
+                    <div style={{ padding: '20px',display: "flex", justifyContent: "center" }}>
+                        <img src={easter} alt="pic broken;(;(" height={500} width={300}title="Home!!!! for Easter! &#013; 03/31 " />
+                    </div>
+                    <div style={{ padding: '20px',display: "flex", justifyContent: "center" }}>
+                        <img src={lamborgini} alt="pic broken;(;(" height={400} width={300}title="'Baby look its me and my lamborgini' &#013; 4/2 " />
+                    </div>
+                    
+                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
+                        <img src={hairdye} alt="pic broken;(;(" height={300} width={500}title="FIRST time dying my hair. and WE MATCHED. &#013; 4/2 " />
+                    </div>         
+                    <div style={{ padding: '20px', display: "flex" }}>
+                        <img src={ice} alt="pic broken;(;(" height={400} width={550}title="Sweet potato ice cream surprise and a sweeter girlfriend &#013; 4/5 " />
+                    </div>  
+ 
+
+                    <div style={{ padding: '20px', display: "flex" }}>
+                        <img src={blackout} alt="pic broken;(;(" height={600} width={300}title="A lil trowup never hurt anybody, finally got to wear my new fenty &#013; 4/6 " />
+                    </div>                    
+                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
+                        <img src={primere} alt="pic broken;(;(" height={300} width={400} title="How I have fun dressing up for u, apologize for the wrinkles. &#013; 4/7 "/>
+                    </div>
+                   <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
+                        <img src={eclipse} alt="pic broken;(;(" height={400} width={300}title="Eclipse picnic (I cared more about u than the eclipse obvi) &#013; 4/8 " />
+                    </div>
+
+                    <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
+                        <img src={people} alt="pic broken;(;(" height={500} width={300}title="How I love to touch your lips &#013; 4/11 " />
+                    </div>
+
+                    <div style={{ padding: '20px', display: "flex" }}>
+                        <img src={ppl2} alt="pic broken;(;(" height={400} width={300}title="A sexy sexy amazing night &#013; 4/11 " />
+                    </div>
+
+
+                    <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
+                        <img src={huggie} alt="pic broken;(;(" height={400} width={300}title="How could I not smile with ur arms around my neck &#013; 4/11 " />
+                    </div>
+
+
+                </div>
+                </div>
+                </div>
+                <div style={{height:600}}></div>
                 <div id="02/11-03/05">
                     <p style={{fontSize:25,height:50}}>02/11-03/05</p>
                     <div style={{ marginleft:100,display: 'flex', flexdirection: 'row',height:500 }}>
