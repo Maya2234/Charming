@@ -57,9 +57,15 @@ import ppole from './Pics/Pattaya/ppole.JPG'
 import shoes from './Pics/Pattaya/shoes.JPG'
 import beach from './Pics/Pattaya/beach.JPG'
 import jalwa from './Pics/Pattaya/jalwa.JPG'
+import React, { Component } from 'react'
+import Link from './Link.js'
+import Route from'./Route.js';
+
 
 function Home(){
-   
+ 
+
+  
     return(
         <html>
            
@@ -67,26 +73,34 @@ function Home(){
                             
                 <p style={{fontSize:12,height:100}}>*touch them pics for more details;</p>
 
-                <div id="" style={{height:1700}}> 
+                <div id="" style={{height:2300}}> 
                     {/* seperates next 2 chunks from rest? */}
                     <p style={{fontSize:25,height:15}}>6/17 - 6/27</p>  
                     <p style={{fontSize:20,textAlign:'center'}}>THAILAND</p>
                     <p style={{fontSize:10,textAlign:'center'}}>E D I T I O N</p>
+                    <div style={{height:50}}></div>
 
-
-                    <div style={{display: 'flex', flexdirection: 'row', height:150,'fontSize':'18px', textAlign:'left', padding:20}}    >            
-                        <p style={{width:500,height:80}}> Dear my long distance love. Through complicated situations, through other lovers, through distance, through obstacles, through time, I can't think of one thing that could steer my heart in any other direction. </p> 
+                    {/* <div class="center-screen"><Link to="/">Home</Link></div> */}
+                    <div class="center-screen">                        
+                            <video controls width='400'height='500' alignSelf= "center"><source src={recap} type="video/mp4"/></video>           
+                    </div>
+                    
+                    <div style={{display: 'flex', flexdirection: 'row', height:150,'fontSize':'18px', textAlign:'left', padding:20}}    > 
+                       
+                        <p style={{width:500}}> Dear overseas love; through complicated situations, through others, through distance, through obstacles, through time, I can't think of one thing that could steer my heart in any other direction. </p> 
                         <div style={{width:60}}></div>
-                        <p style={{width:601, height: 100}}> I know its been a long time. I know time changes us, and neither of us will be the same person, even as one month ago. But one thing I am so sure of this whatever is between you and me. You can call it whatever you want, you can try to ignore it, you can look away. But it will not change the fact the undeniable bond and chemistry we have face to face, body to body. What has been between us this entire past almost one year. Since last september, even before it could be acknowledged. </p> <div style={{width:40}}></div><p style={{width:601}}>I've been nervous. You make me so nervous. Things are tense for us. I know uncertainty is hard and we've both had full plates. I've missed you, and cant wait to spend time tending to our hearts, helping you move, smoking, watching tv and bollywood, shopping, warby parker, driving lessons, many more old and new hobbies of ours.  </p> <div style={{width:40}}></div><p>to much more time together<br></br>love, maya</p>
+                        <p style={{width:601, height: 100}}> I know its been a long time. I know time changes us, and neither of us will be the same person, even as one month ago. But one thing I am so sure of this whatever is between you and me. You can call it whatever you want, you can try to ignore it, you can turn your cheek. But it will not change the fact the undeniable bond and chemistry we have face to face, body to body. What has been between us this entire past almost one year. Since last september, even before it could be acknowledged. </p> <div style={{width:40}}></div><p style={{width:601}}>I've been nervous. You make me so nervous. Things are tense for us. I know uncertainty is hard and we've both had full plates. I've missed you, and cant wait to spend time tending to our hearts, helping you move, smoking, watching tv and bollywood, shopping, warby parker, driving lessons, many more old and new hobbies of ours.  </p> <div style={{width:40}}></div><p>No matter what direction life takes, I will always cheer you on. Mwah & see u soon flights willing *lol<br></br>love, maya</p>
                     </div>     
 
-                    <div style={{height:60}}></div>
+                    <div style={{height:100}}></div>
 
                     <div style={{display: 'flex', flexdirection: 'row',height:130,'fontSize':'18px',textAlign:'left', padding:20,height:500}}>
+
                         <div style={{ padding: '20px', display: "flex", justifyContent: "center" }}>
                             <img src={beer} alt="pic broken;(;(" height={300} width={400}title="Two models in Jalwa VIP &#013; 6/20 " />
                         </div>    
-                        <div style={{ marginleft:100,display: 'flex', flexdirection: 'row',height:500 }}>
+
+                        <div style={{display: 'flex', flexdirection: 'row',height:500 }}>
                             <div style={{ padding: '20px', justifyContent: "center", alignItems: "center" }}>
                                 <img src={jalwa} alt="pic broken;(;(" height={400} width={300} title="good time w the belly dancers &#013; 6/20 "/>
                             </div>                  
@@ -417,5 +431,6 @@ function Home(){
             
         </html>
     );   
-}
+} 
+
 export default Home;
